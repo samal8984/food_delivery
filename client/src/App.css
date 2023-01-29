@@ -1,0 +1,608 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#foods{
+  
+  height: 100%;
+  width: 100%;
+
+}
+
+ .upper_data h4{
+  font-size: 18px;
+  color: rgba(17, 17, 17, 0.849);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin: 5px;
+ }
+ .upper_data span{
+  background-color: rgb(36, 150, 63);
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 2px 1px;
+  width: 45px;
+  margin: 5px;
+
+ }
+
+ 
+.lower_data h5{
+  font-size: 15px;
+letter-spacing: .4px;
+font-weight: 400;
+color:rgba(17,17,17,0.849) ;
+margin: 2px;
+}
+
+.lower_data span{
+  font-size: 15px;
+  letter-spacing: .4px;
+  color:rgba(17,17,17,0.849) ;
+  margin: 2px;
+}
+
+.extra{
+  border-bottom: 1px solid rgba(17,17,17,0.449);
+}
+.resbody{
+  width: 100%;
+  height: 280px;
+  background-color: black;
+  display: flex;
+  padding: 20px;
+
+
+}
+.resbodycompress{
+  width: 100%;
+  height: 180px;
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  
+  
+}
+.resimage{
+  height: 150px;
+  width: 200px;
+  flex: 1;
+ 
+}
+.resname{
+  height: 180px;
+  width:200px;
+ 
+  flex:1;
+}
+.resdetails{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: -10px;
+  height: 250px;
+ 
+
+}
+.resdetails>*{
+  flex : 1 1 80px;
+  margin: 10px;
+ 
+}
+.resdetails h1{
+  color: white;
+  
+}
+.details{
+  
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.details h1{
+  color: white;
+  font-size: 30px;
+}
+.details h5{
+  color: rgb(196, 187, 187);
+  font-size: 20px;
+}
+.delivery{
+  display: flex;
+  
+  
+
+  
+  width: 500px;
+  
+  
+  
+  
+
+
+}
+.deliverydetails{
+  flex: 1;
+ 
+  
+  width: 150px;
+  height: 50px;
+  
+ 
+  
+
+  
+   
+
+}
+.itemd{
+  height: fit-content;
+  width: fit-content;
+
+  
+
+}
+.deliverydetailsnew{
+  display: none;
+  
+}
+.deliverydetails h5{
+  color: white;
+  
+  margin-bottom: 5px;
+}
+.deliverydetails p{
+  color: rgb(196, 187, 187);
+  margin-bottom: 5px;
+  font-size: small;
+}
+.offers{
+  height: 80px;
+  width: 400px;
+  border: 1px solid white;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: -10px;
+}
+.list-group a{
+  border-top: none;
+  
+  border-left: none;
+  border-bottom: none;
+  
+  
+
+}
+.list-group a:hover{
+  color: #6bc260;
+
+
+}
+.list-group .active{
+  background-color: white !important;
+  color: #6bc260 !important;
+  border-right-color: #6bc260;
+  border-right-width: 5px;
+  
+  
+  
+}
+.list-group{
+  border-radius: 0;
+  margin-bottom: 7px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 430px;
+  
+  border-right: 1px solid gray;
+  
+  
+  
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.itemslist{
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 5px;
+  border: 1px solid green;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  
+  
+  
+
+
+
+ 
+}
+.itemslist1{
+
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  flex-direction: column;
+  margin: 5px;
+  border: 1px solid red;
+  
+
+  
+
+
+
+ 
+}
+.itemslist>*{
+  flex: 1 1 60px;
+  
+   margin: 5px;
+  
+  
+  
+  
+}
+.itemsdetails{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 350px;
+  height: 600px;
+  margin-right: 150px;
+  
+  
+}
+.itemsdetailsbutton{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  border-bottom: 2px solid grey;
+
+  
+
+}
+.cartbutton{
+position: relative;
+margin-left: auto;
+margin-bottom: 10px;
+}
+.setheight{
+  border: 1px solid red;
+}
+.loginbody{
+  display: flex;
+  flex-direction: column;
+  width: 100%;;
+  height: 100%;
+  
+  margin: 10px;
+
+  
+}
+.loginbox{
+  flex: 1;
+  
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 450px;
+
+  
+ 
+
+}
+.loginbox1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 420px;
+  height: 100px;
+  margin-right: 5px;
+  
+  
+
+  
+
+  
+
+  
+  
+
+}
+.loginbox1>*{
+  flex: 1 1 auto;
+  
+  align-items: flex-start;
+  margin: 5px;
+  width: 180px;
+  height: 100%;
+  
+  
+  
+
+  
+}
+
+
+.loginfield{
+  flex: 2;
+  margin: 10px;
+  
+
+}
+.loginfield1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+
+
+
+  
+
+}
+.loginfield1>*{
+  flex: 1 1 60px;
+  border: 1px solid gray;
+  margin-left: 40px;
+  
+
+
+
+  
+
+
+  
+
+}
+.loginfield2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+
+}
+.loginfield2>*{
+  flex: 1 1 60px;
+  margin-left: 40px;
+  
+
+
+
+  
+
+
+  
+
+}
+.loginbutton{
+  flex: 1;
+  margin: 10px;
+  
+}
+.inputwrapper{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+.inputfield{
+
+  margin-top: 25px;
+  margin-left: 20px;
+
+  
+}
+.inputdata{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  
+  margin: 10px;
+  margin-top: 20px;
+
+}
+.lab{
+  flex: 1;
+  font-size: 12px;
+  
+}
+.inp{
+  flex: 1;
+  border-style: none;
+  outline-style: none;
+
+  
+  
+}
+.inp:focus::placeholder{
+  color: transparent;
+}
+
+
+  ::placeholder {
+  color: red;
+  
+}
+.cartbody1{
+  width:60%;
+  border: 1px solid rebeccapurple;
+  height: 100%;
+}
+.cartbody2{
+  width:30%;
+  border: 1px solid rgb(158, 116, 37);
+  height: 100%;
+  margin-left: auto;
+}
+.cartdetails{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 650px;
+  height: fit-content;
+  
+  
+  margin: 10px;
+}
+.cartdetails>*{
+  flex:  1 1 120px;
+  border: 1px solid red;
+  margin-bottom: 18px;
+  padding-bottom: 20px;
+  
+  
+}
+.checkout{
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 450px;
+  
+}
+.billdetails{
+  width: 330px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: fit-content;
+  border-bottom: 1px solid black;
+  overflow-y: scroll;
+  
+
+
+  
+}
+.billdetails>*{
+  flex: 1 1 auto;
+
+  margin: 10px;
+  height: fit-content;
+  width: 300px;
+  
+  
+}
+.deliverycontainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  margin: 5px;
+  height: fit-content;
+  
+}
+.deliverycontainer>*{
+  flex: 1 1 auto;
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+
+}
+.addressbox:hover{
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+
+}
+.nav-link.active{
+  border-bottom: 1px solid black;
+  
+
+}
+.rescontainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  
+}
+.rescontainer>*{
+  margin: 10px;
+  height: 380px;
+  width: 300px;
+  flex: 1 1 auto;
+  
+}
+.resbox{
+  width: 280px;
+  height: 360px;
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 15px;
+  
+  
+  }
+  .restaurantcover{
+    border: 1px solid transparent;
+  }
+  
+
+  .restaurantcover:hover{
+    border: 1px solid rgb(219, 205, 205);
+    }
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
